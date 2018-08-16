@@ -9,7 +9,7 @@ title: Create Strings using Template Literals
 
 ### Problem Explanation:
 
-We need to compute and square values from the `realNumberArray` and store them in the variable `squaredIntegers` using the `map()`, `filter()`, and/or `reduce()` functions.
+We need use template literal syntax with backticks to display each entry of the result object's failure array. Each entry should be wrapped inside an li element with the class attribute text-warning, and listed within the `resultDisplayArray`
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
 
@@ -19,7 +19,7 @@ We need to compute and square values from the `realNumberArray` and store them i
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 2
 
-*   You will need to `map()` the `result` for create new array with <li class="text-warning">${value}</li>`.
+*   You will need to `map()` the `result` for create `resultDisplayArray`.
 
 > _try to solve the problem now_
 
@@ -59,11 +59,11 @@ function makeList(arr) {
  **/
 const resultDisplayArray = makeList(result.failure);
 ```
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://codepen.io/dylantyates/pen/WyWoYJ' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://codepen.io/dipto0321/pen/VBJVKr' target='_blank' rel='nofollow'>Run Code</a>
 
 # Code Explanation:
 
-Uses the operator `map()` functions and Template literal to create `<li class="text-warning">${val}</li> in a given array.
+Uses the operator `map()` functions and Template literal to create `resultDisplayArray`.
 
 #### Relevant Links
 
